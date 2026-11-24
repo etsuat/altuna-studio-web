@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Altuna Studio. Desarrollo de aplicaciones móviles y herramientas digitales.">
+<title>Altuna Studio | Aplicaciones móviles</title>
+<style>
+:root {
+    --bg: #061426;
+    --card: #10243b;
+    --gold: #ffbf32;
+    --white: #f5f7fa;
+    --muted: #aabbd0;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--white);
+    line-height: 1.7;
+}
+header {
+    max-width: 1120px;
+    margin: auto;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.brand {
+    font-size: 24px;
+    font-weight: 800;
+}
+.brand span { color: var(--gold); }
+nav a {
+    color: var(--muted);
+    text-decoration: none;
+    margin-right: 20px;
+}
+.hero {
+    padding: 100px 24px;
+    text-align: center;
+    background: radial-gradient(ellipse at top, #173c65, #061426 75%);
+}
+.eyebrow {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+h1 {
+    font-size: clamp(38px, 7vw, 76px);
+    line-height: 1.15;
+    margin: 24px 0;
+}
+h1 span { color: var(--gold); }
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    color: var(--muted);
+    font-size: 19px;
+}
+.button {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--bg);
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+section {
+    max-width: 1120px;
+    margin: auto;
+    padding: 65px 24px;
+}
+h2 { font-size: 32px; }
+.card {
+    background: var(--card);
+    border: 1px solid #263d57;
+    border-radius: 20px;
+    padding: 36px;
+}
+.card h3 {
+    font-size: 28px;
+    margin: 12px 0;
+}
+.card p { color: var(--muted); }
+.status {
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 600;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 24px 0;
+}
+.features span {
+    padding: 7px 14px;
+    border-radius: 8px;
+    background: #1b3550;
+    font-size: 14px;
+}
+a { color: var(--gold); }
+footer {
+    border-top: 1px solid #263d57;
+    padding: 32px 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="brand">Altuna <span>Studio</span></div>
+    <nav>
+        <a href="#aplicaciones">Aplicaciones</a>
+        <a href="#nosotros">Sobre nosotros</a>
+    </nav>
+</header>
+
+<main>
+    <div class="hero">
+        <div class="eyebrow">Independent App Development</div>
+        <h1>Tecnología con <span>propósito.</span></h1>
+        <p>Desarrollamos aplicaciones intuitivas y herramientas digitales para aprender, crear y mejorar tu día a día.</p>
+        <a class="button" href="#aplicaciones">Descubre nuestras aplicaciones</a>
+    </div>
+
+    <section id="aplicaciones">
+        <div class="eyebrow">Nuestro trabajo</div>
+        <h2>Aplicaciones</h2>
+        <article class="card">
+            <div class="status">PRÓXIMAMENTE EN GOOGLE PLAY</div>
+            <h3>Bajista Tools</h3>
+            <p>Una colección de herramientas musicales diseñada para bajistas. Aprende, practica, mejora tu técnica y prepara tus ensayos desde una única aplicación.</p>
+            <div class="features">
+                <span>Afinador</span>
+                <span>Metrónomo</span>
+                <span>Modo Ensayo Pro</span>
+                <span>Diapasón</span>
+                <span>Rhythm Lab</span>
+                <span>EarLab</span>
+                <span>Groove Master</span>
+            </div>
+        </article>
+    </section>
+
+    <section id="nosotros">
+        <div class="eyebrow">Altuna Studio</div>
+        <h2>Aplicaciones pensadas para las personas</h2>
+        <p>Altuna Studio es un proyecto independiente de desarrollo de software centrado en crear aplicaciones prácticas, accesibles y fáciles de utilizar.</p>
+    </section>
+</main>
+
+<footer>
+    &copy; 2026 Altuna Studio. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
